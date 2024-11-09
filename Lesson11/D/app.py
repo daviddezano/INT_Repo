@@ -23,6 +23,6 @@ def convert_celsius_to_fahrenheit():
 
 @app.route("/", methods=["GET"])
 def main():
-    return render_template("index.html", title="L11 Exercise A")
+    return render_template("index.html", title="L11 Exercise D")
 
 app.run(debug=True, host="0.0.0.0", port=8080)
