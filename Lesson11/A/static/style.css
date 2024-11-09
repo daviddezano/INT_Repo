@@ -1,0 +1,12 @@
+body {
+    background-color: #679AAF; /* Optional background color */
+}
+
+body button {
+    height: 75px;
+    width: 300px;
+    background-color: #6050dc; /* Button color */
+    position: relative;
+    top: 50px;
+    left: 35%;
+}
