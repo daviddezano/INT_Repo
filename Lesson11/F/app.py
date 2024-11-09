@@ -35,6 +35,6 @@ def log_feedback():
 
 @app.route("/", methods=["GET"])
 def main():
-    return render_template("index.html", title="L11 Exercise E")
+    return render_template("index.html", title="L11 Exercise F")
 
 app.run(debug=True, host="0.0.0.0", port=8080)

@@ -28,7 +28,7 @@ def calculate():
         try:
             result = float(str(f"{float(num_one) / float(num_two):.3f}"))
         except ZeroDivisionError:
-            return {"result": "Error"}
+            return {"result": "ErrorDividedByZero"}
     elif calc_option == "Multiply":
         result = float(str(f"{float(num_one) * float(num_two):.3f}"))
     else:
