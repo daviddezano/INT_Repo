@@ -24,7 +24,6 @@ async function validUrl(url){
     }
 }
 
-
 Form.addEventListener('submit', function (event) {
     console.log('Form is submitted!');
     event.preventDefault();
